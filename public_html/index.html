@@ -1,15 +1,387 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math and Language Synergy</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo-placeholder">MLS</div>
+                <span class="brand-name">Math & Language Synergy</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Bridging Language and Mathematics Education</h1>
+                <p class="hero-subtitle">Comprehensive programs in English, Japanese, and Mathematics for academic and professional success in a globalized world.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">View Programs</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-placeholder">
+                    <i class="fas fa-globe-americas"></i>
+                    <i class="fas fa-calculator"></i>
+                    <i class="fas fa-language"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Founded in 2010 by Maria R. Chenault and Yukihiro Tashiro, Math and Language Synergy began with a vision to bridge the gap between language and mathematics education, empowering learners to succeed in both domains.</p>
+                    <p>Our founders, seasoned educators with deep passion for languages and mathematics, recognized the rising need for an integrated approach to learning in a globalized world.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>To offer integrated education that provides students with both the math and language skills needed for proficiency and success in a diverse, global world.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>To create a world where language and mathematics complement each other, enabling students to excel academically and thrive in international environments.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">14+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">Core Programs</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">Students Served</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Programs & Services</h2>
+            
+            <div class="program-categories">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="language">Language Programs</button>
+                    <button class="tab-btn" data-category="math">Mathematics Programs</button>
+                    <button class="tab-btn" data-category="integrated">Integrated Programs</button>
+                    <button class="tab-btn" data-category="support">Support Options</button>
+                </div>
+                
+                <div class="programs-container">
+                    <!-- Language Programs -->
+                    <div class="program-category active" id="language-programs">
+                        <div class="program-card">
+                            <h3>English Language Mastery</h3>
+                            <p>Immersive program to improve fluency, communication skills, writing, and cultural awareness.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 9,000</span>
+                                <span class="duration">Per Semester</span>
+                            </div>
+                        </div>
+                        <div class="program-card">
+                            <h3>Japanese Language Immersion</h3>
+                            <p>Comprehensive Japanese learning focusing on communication, reading, writing, and cultural insights.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 9,900</span>
+                                <span class="duration">Per Semester</span>
+                            </div>
+                        </div>
+                        <div class="program-card">
+                            <h3>English for Academic Purposes</h3>
+                            <p>Designed for high school and college students to develop academic English skills for essays and research papers.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 10,800</span>
+                                <span class="duration">Per Term</span>
+                            </div>
+                        </div>
+                        <div class="program-card">
+                            <h3>Business Japanese</h3>
+                            <p>Professional course focusing on business communication in Japanese for career advancement.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 11,700</span>
+                                <span class="duration">Per Term</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Mathematics Programs -->
+                    <div class="program-category" id="math-programs">
+                        <div class="program-card">
+                            <h3>Advanced Algebra and Calculus</h3>
+                            <p>For high school and college students preparing for competitive examinations and advanced studies.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 7,200</span>
+                                <span class="duration">Per Semester</span>
+                            </div>
+                        </div>
+                        <div class="program-card">
+                            <h3>Applied Mathematics</h3>
+                            <p>Application of mathematics to real-world problems including statistics, data analysis, and mathematical modeling.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 10,800</span>
+                                <span class="duration">Per Semester</span>
+                            </div>
+                        </div>
+                        <div class="program-card">
+                            <h3>Mathematics for Career Enhancement</h3>
+                            <p>Courses designed to improve mathematical abilities for careers in Data Analytics, Finance, and Technology.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 11,700</span>
+                                <span class="duration">Per Semester</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Integrated Programs -->
+                    <div class="program-category" id="integrated-programs">
+                        <div class="program-card">
+                            <h3>Dual Language and Math Enrichment</h3>
+                            <p>Combined program of advanced English, Japanese, and Mathematics for comprehensive skill development.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 16,200</span>
+                                <span class="duration">Per Semester</span>
+                            </div>
+                        </div>
+                        <div class="program-card">
+                            <h3>Academic Excellence Package</h3>
+                            <p>Advanced English, Japanese, and Mathematics classes for students aiming for college scholarships.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 21,600</span>
+                                <span class="duration">Per Semester</span>
+                            </div>
+                        </div>
+                        <div class="program-card">
+                            <h3>Professional Development Package</h3>
+                            <p>Business Japanese, Applied Mathematics, and professional language training for career advancement.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 24,300</span>
+                                <span class="duration">Per Semester</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Support Options -->
+                    <div class="program-category" id="support-programs">
+                        <div class="program-card">
+                            <h3>Private Tutoring</h3>
+                            <p>One-on-one sessions in English, Japanese, and Mathematics for personalized learning support.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 1,350</span>
+                                <span class="duration">Per Hour</span>
+                            </div>
+                        </div>
+                        <div class="program-card">
+                            <h3>Examination Training Camps</h3>
+                            <p>Intensive preparation camps for English, Japanese, and Mathematics examinations.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 3,000</span>
+                                <span class="duration">Per Camp</span>
+                            </div>
+                        </div>
+                        <div class="program-card">
+                            <h3>Cultural Exchange Programs</h3>
+                            <p>Language improvement through cultural exchange activities and immersive experiences.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 4,500</span>
+                                <span class="duration">Per Program</span>
+                            </div>
+                        </div>
+                        <div class="program-card">
+                            <h3>Corporate Training</h3>
+                            <p>Customized language and mathematics training packages for businesses and organizations.</p>
+                            <div class="program-details">
+                                <span class="price">ZAR 15,000</span>
+                                <span class="duration">Per Course</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section team" id="team">
+        <div class="container">
+            <h2 class="section-title">Our Team</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Dr. Maria R. Chenault</h3>
+                    <p class="team-role">Co-Founder & Director of Language Programs</p>
+                    <p class="team-bio">Ph.D. in Linguistics with over 15 years of teaching experience, specializing in innovative language teaching methodologies.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Professor Yukihiro Tashiro</h3>
+                    <p class="team-role">Co-Founder & Director of Mathematics Programs</p>
+                    <p class="team-bio">Mathematics education authority with over 20 years of experience, known for encouraging approaches to complex mathematical concepts.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Lily Anderson</h3>
+                    <p class="team-role">Head of English Department</p>
+                    <p class="team-bio">Experienced English educator with innovative pedagogy focusing on communication skills and cultural knowledge.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Hiroshi Kato</h3>
+                    <p class="team-role">Head of Japanese Department</p>
+                    <p class="team-bio">Provides hands-on, immersive Japanese language and cultural experiences for students.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-square-root-alt"></i>
+                    </div>
+                    <h3>Daniel Wong</h3>
+                    <p class="team-role">Mathematics Instructor</p>
+                    <p class="team-bio">Skilled at simplifying complex mathematical theories and developing analytical abilities in students.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Learning Lane<br>Knowledge City, EDU 45678<br>Country land</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (234) 567-8901</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@mathlanguagesynergy.edu</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Monday to Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo-placeholder">MLS</div>
+                    <span class="brand-name">Math & Language Synergy</span>
+                    <p class="footer-mission">Bridging language and mathematics education for global success.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Programs</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for updates on new programs and events.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; <span id="currentYear"></span>, Math and Language Synergy. All rights reserved.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
 </html>
