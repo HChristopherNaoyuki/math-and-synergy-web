@@ -10,7 +10,6 @@
 6. [Browser Compatibility](#browser-compatibility)
 7. [Deployment Guidelines](#deployment-guidelines)
 8. [Maintenance](#maintenance)
-
 ---
 
 ## Project Overview
