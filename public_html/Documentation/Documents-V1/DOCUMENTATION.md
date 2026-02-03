@@ -45,7 +45,6 @@ math-and-synergy-web/
 └── images/
 │   └── logo.png
 └── README.md
-
 ```
 
 ## Core Features
