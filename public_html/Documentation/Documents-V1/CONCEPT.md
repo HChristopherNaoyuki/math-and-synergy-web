@@ -1,4 +1,4 @@
-# CONCEPT OVERVIEW 
+# Concept
 
 - AUTHOR: Naoyuki Christopher H.
 - STUDENT NUMBER: ST10462415

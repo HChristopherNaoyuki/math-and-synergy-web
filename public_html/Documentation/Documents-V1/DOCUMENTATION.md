@@ -1,4 +1,4 @@
-# Math and Language Synergy – Documentation
+# Documentation
 
 ## Table of Contents
 

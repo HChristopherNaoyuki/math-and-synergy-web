@@ -1,5 +1,4 @@
-```markdown
-# Math and Language Synergy
+# Process Document
 
 ## Table of Contents
 1.  [Abstract](#abstract)
