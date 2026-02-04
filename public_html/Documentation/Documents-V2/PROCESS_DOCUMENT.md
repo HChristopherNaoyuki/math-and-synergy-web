@@ -127,18 +127,13 @@ providing a cherished learning experience.
 
 We would love to hear from you. For inquiries or registration, please contact us.
 
-**Address:**
-123 Learning Lane
-Knowledge City, EDU 45678
-Country land
-
-**Phone:** +1 (234) 567-8901
-**Email:** info@mathlanguagesynergy.edu
-
-**Business Hours:**
-Monday to Friday: 9:00 AM - 6:00 PM
-Saturday: 10:00 AM - 4:00 PM
-Sunday: Closed
+- **Address:** 123 Learning Lane, Knowledge City, EDU 45678, Country land
+- **Phone:** +1-(234)-567-8901
+- **Email:** info@mathlanguagesynergy.edu
+- **Business Hours:**
+    - Monday to Friday: 9:00 AM - 6:00 PM
+    - Saturday: 10:00 AM - 4:00 PM
+    - Sunday: Closed
 
 ## Conclusion
 
